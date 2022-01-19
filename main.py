@@ -45,6 +45,7 @@ for i in range(5):
                     word_list.pop(j)
 #                     count -= 1
                     removed = True
+                    break
 
         if correct_letters is not None and not removed:
             for z in range(len(correct_letters)):
@@ -58,6 +59,7 @@ for i in range(5):
                     word_list.pop(j)
 #                     count -= 1
                     removed = True
+                    break
 
         # If nothing was removed increase j by one.  This check ensures
         # no words are skipped
