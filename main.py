@@ -73,7 +73,7 @@ for i in range(5):
     # If there's more than 10 elements print the top 10
     if count > 10:
         print("---Top 10 words---")
-        for i in range(19):
+        for i in range(10):
             print(word_list[i])
 
     # Otherwise just print all the words
