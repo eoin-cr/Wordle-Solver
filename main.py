@@ -2,6 +2,7 @@
 from numpy import loadtxt
 
 # Open wordlist
+# with open("wordle-list.txt") as f: # Uncomment this if you want to use the actual word list
 with open("wiki-100k.txt") as f:
 # with open("test-list.txt") as f:
     word_list = f.read().split()
